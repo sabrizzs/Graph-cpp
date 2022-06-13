@@ -4,6 +4,6 @@
 </div>
 
 #### Entrada do arquivo de texto
-O algoritmo lê o arquivo de texto para a entrada da estrutura do grafo em uma função na ```main()```. O nome do arquivo deve ser "grafo.txt" e estar no mesmo diretório do programa.
+O algoritmo lê o arquivo de texto para a entrada da estrutura do grafo na função ```leArquivo```. O nome do arquivo deve ser "grafo.txt" e estar no mesmo diretório do programa.
 
 
