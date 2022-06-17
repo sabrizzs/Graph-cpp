@@ -13,4 +13,4 @@ O grafo foi implementado utilizando a classe ```vector``` para criar V (número 
 Dado um vértice u, a função calcula a distância de u até todos os vértices do grafo utilizando a função ```bfs(int i)``` que consiste na busca em largura. A ideia dessa função é visitar um vértice i, em seguida seus vizinhos e assim por diante, desse modo, é possível encontrar o menor caminho entre i e os demais vértices.
 
 #### Função compConexas()
-Determina o número de componentes conexas e o tamanho de cada componente de um grafo.
+Determina o número de componentes conexas e o tamanho de cada componente de um grafo utilizando a função ```dfs()``` que consiste na busca em profundidade. A ideia dessa função é em cada passo examinar um vértice, marco que a busca já o examinou e visito cada um de seus vizinhos que ainda não foi visitado, assim, é possível determinar as componentes conexas.
