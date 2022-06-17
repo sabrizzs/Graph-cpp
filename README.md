@@ -3,6 +3,8 @@
   <h3>Sabrina Araújo - nºUSP 12566182</h3>
 </div>
 
+### Tarefas básicas de grafos
+
 #### Entrada do arquivo de texto
 O algoritmo lê o arquivo de texto para a entrada da estrutura do grafo na função ```leArquivo```. O nome do arquivo deve ser "grafo.txt" e estar no mesmo diretório do programa.
 
@@ -15,10 +17,16 @@ Dado um vértice u, a função calcula a distância de u até todos os vértices
 #### Função compConexas()
 Determina o número de componentes conexas e o tamanho de cada componente de um grafo utilizando a função ```dfs()``` que consiste na busca em profundidade. A ideia dessa função é em cada passo examinar um vértice, marco que a busca já o examinou e visito cada um de seus vizinhos que ainda não foi visitado, assim, é possível determinar as componentes conexas.
 
-### Geradores
+### Os grafos legais: geradores
 No arquivo geradores.cpp há 3 geradores de entrada para o programa principal.
 #### simples()
 A função ```simples()``` gera um número aleatório para V (número de vértices) e para E (número de arestas) e a partir disso gera uma lista de adjacência aleatória.
 
-### palavras()
-A função ```palavras()``` recebe uma lista de palavras de um arquivo ```palavras.txt``` e a partir disso cria uma lista de adjacência com números
+#### palavras()
+A função ```palavras()``` recebe uma lista com n palavras de um arquivo ```palavras.txt``` e a partir disso cria uma lista de adjacência com números entre 0 e n-1.
+
+#### erdosReniy()
+A função ```erdosReniy``` recebe um número de vértices V e uma probabilidade p e a partir disso conecta cada vértice com os outros com probabilidade p.
+
+### Propriedades de grafos: testes
+
