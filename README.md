@@ -14,3 +14,11 @@ Dado um vértice u, a função calcula a distância de u até todos os vértices
 
 #### Função compConexas()
 Determina o número de componentes conexas e o tamanho de cada componente de um grafo utilizando a função ```dfs()``` que consiste na busca em profundidade. A ideia dessa função é em cada passo examinar um vértice, marco que a busca já o examinou e visito cada um de seus vizinhos que ainda não foi visitado, assim, é possível determinar as componentes conexas.
+
+### Geradores
+No arquivo geradores.cpp há 3 geradores de entrada para o programa principal.
+#### simples()
+A função ```simples()``` gera um número aleatório para V (número de vértices) e para E (número de arestas) e a partir disso gera uma lista de adjacência aleatória.
+
+### palavras()
+A função ```palavras()``` recebe uma lista de palavras de um arquivo ```palavras.txt``` e a partir disso cria uma lista de adjacência com números
